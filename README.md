@@ -60,7 +60,7 @@ UAS_ML1/
 
 ## Cara Menjalankan Program
 
-### A. Menjalankan Demo (Streamlit) — *paling mudah*
+### A. Menjalankan Demo (Streamlit)
 
 ```bash
 cd demo-run
