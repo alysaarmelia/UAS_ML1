@@ -3,7 +3,7 @@
 Klasifikasi gambar obat **LASA** (*Look-Alike Sound-Alike*) ke dalam dua kategori:
 **NSAID (Pereda Nyeri)** vs **Antibiotik**, menggunakan *transfer learning* berbasis CNN.
 
-> Sistem hanya untuk keperluan penelitian/akademik (UAS Machine Learning)
+Sistem hanya untuk keperluan penelitian/akademik (UAS Machine Learning)
 
 ---
 
@@ -27,8 +27,8 @@ terbatas dan tidak seimbang, digunakan *class weighting*, *weighted sampling*, a
 (Albumentations), serta *Test-Time Augmentation* (TTA).
 
 **Metodologi (notebook `UAS_ML_1.ipynb`):**
-1. **Data pipeline** — load gambar, augmentasi, split, penanganan imbalance.
-2. **Baseline** — EfficientNet-B0 (*frozen backbone* + classifier head).
+1. **Data pipeline** (load gambar, augmentasi, split, penanganan imbalance).
+2. **Baseline** EfficientNet-B0 (*frozen backbone* + classifier head).
 3. **Cell A Komparasi arsitektur**: EfficientNet-B0, MobileNetV3-Small, ResNet50,
    EfficientNet-B1, plus baseline klasik (CNN-Feature + SMOTE + Random Forest).
 4. **Cell B Hyperparameter tuning** dengan Optuna (TPE sampler + Median pruner).
