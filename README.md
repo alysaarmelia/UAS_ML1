@@ -107,7 +107,7 @@ Perbandingan akurasi seluruh model yang diuji (pada data uji):
 | Random Forest (klasik, terbaik) | 70.37% |
 | KNN (klasik) | 59.26% |
 | SVM (klasik) | 70.37% |
-| **EfficientNet-B0 (baseline)** | **80.00%** ⭐ |
+| **EfficientNet-B0 (baseline)** | **80.00%** |
 | MobileNetV3-Small | 45.00% |
 | ResNet50 | 50.00% |
 | EfficientNet-B1 | 60.00% |
