@@ -1,13 +1,13 @@
-# LASA Pill Classifier 💊💉
+# LASA Pill Classifier
 
 Klasifikasi gambar obat **LASA** (*Look-Alike Sound-Alike*) ke dalam dua kategori:
 **NSAID (Pereda Nyeri)** vs **Antibiotik**, menggunakan *transfer learning* berbasis CNN.
 
-> ⚠️ Sistem hanya untuk keperluan penelitian/akademik (UAS Machine Learning)
+> Sistem hanya untuk keperluan penelitian/akademik (UAS Machine Learning)
 
 ---
 
-## 📌 Penjelasan Singkat Proyek
+## Penjelasan Singkat Proyek
 
 Obat LASA adalah obat yang memiliki rupa/kemasan mirip sehingga rawan tertukar.
 Proyek ini membangun model *computer vision* untuk membedakan dua golongan obat secara otomatis
@@ -40,7 +40,7 @@ Model hasil pelatihan kemudian di-*deploy* sebagai aplikasi web sederhana (Strea
 
 ---
 
-## 📁 Struktur Folder
+## Struktur Folder
 
 ```
 UAS_ML1/
@@ -58,7 +58,7 @@ UAS_ML1/
 
 ---
 
-## ▶️ Cara Menjalankan Program
+## Cara Menjalankan Program
 
 ### A. Menjalankan Demo (Streamlit) — *paling mudah*
 
@@ -98,7 +98,7 @@ Notebook `UAS_ML_1.ipynb` dirancang untuk **Google Colab** (mount Google Drive):
 
 ---
 
-## 📊 Hasil Utama Model
+## Hasil Utama Model
 
 Perbandingan akurasi seluruh model yang diuji (pada data uji):
 
