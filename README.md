@@ -11,7 +11,7 @@ Sistem hanya untuk keperluan penelitian/akademik (UAS Machine Learning)
 
 Obat LASA adalah obat yang memiliki rupa/kemasan mirip sehingga rawan tertukar.
 Proyek ini membangun model *computer vision* untuk membedakan dua golongan obat secara otomatis
-dari foto sediaan maupun kemasannya.
+dari foto sediaan maupun kemasannya. Selain itu, konsumsi obat LASA terutaman antibiotik dan pereda nyeri harus memiliki jeda waktu yang tepat agar tidak menyebabkan efek samping berbahaya pada tubuh.
 
 **Dataset** terdiri dari 4 folder (2 kelas):
 
